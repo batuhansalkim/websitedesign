@@ -50,6 +50,103 @@ nav ul li a{
 nav ul li a:hover{
     color: yellow;
 }
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    /* text-align: right; */
+}
+.col{
+flex-basis: 50%;
+}
+.col1{
+    flex-basis: 50%;
+    text-align: right;
+}
+.col h1{
+    color: yellow;
+    font-size: 50px;
+}
+.col p {
+    font-size: 17px;
+}
+h1{
+    color: white;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+button:hover{
+    background: yellow;
+}
+.card{
+    text-align: right;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: red;
+    background-image: url(/images/aquamen.jpg);
+    background-size: cover;
+    transition: transform;
+}
+
+.card1{
+    background-image: url(/images/aquamen.jpg);
+}
+.card2{
+    background-image: url(/images/inception.jpg);
+}
+.card3{
+    background-image: url(/images/joker-2019.jpg);
+}
+.card4{
+    background-image: url(/images/wolverine.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: rgb(211, 255, 17);
+    text-shadow: 0 0 5px #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
