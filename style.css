@@ -30,19 +30,26 @@
 }
 
 nav{
-    flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
+    text-align: right;
 }
 nav ul{
-    list-style: none;
-}
-nav ul li{
     
 }
-nav ul li a{
-    color: white;
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
 }
-
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    transition: 0.5 ease;
+}
+nav ul li a:hover{
+    color: yellow;
+}
 
 
 
